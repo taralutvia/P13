@@ -1,0 +1,42 @@
+#include <iostream>
+
+using namespace std;
+
+int a, b, perkalian, pembagian, tambah, kurang;
+
+void menghitungperkalian()
+{
+    perkalian=a*b;
+    cout<<"hasil perkalian adalah   :  "<<perkalian<<endl;
+}
+
+void menghitungpembagian()
+{
+    pembagian=a/b;
+    cout<<"hasil pembagian adalah   :  "<<pembagian<<endl;
+}
+
+void menghitungtambah()
+{
+    tambah=a+b;
+    cout<<"menghitung tambah adalah   :  "<<tambah<<endl;
+}
+
+void menghitungkurang()
+{
+    kurang=a-b;
+    cout<<"menghitung kurang adalah   :  "<<kurang<<endl;
+}
+
+int main()
+{
+  cout<<"masukan a : "<<endl;
+  cin>>a;
+  cout<<"masukan b : "<<endl;
+  cin>>b;
+  menghitungperkalian();
+  menghitungpembagian();
+  menghitungtambah();
+  menghitungkurang();
+  
+}
