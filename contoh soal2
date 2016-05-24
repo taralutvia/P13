@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int hasil;
+//membuat fungsi dengan paramer bertipe masukan
+
+int TambahSatu (int X) {
+    int hasil;
+    hasil = X + 1;
+    return hasil;
+}
+
+int main() {
+    /*Mendeklarasikan variabel yang akan digunakan sebagai nilai parameter pada saat pemanggilan */
+int Bilangan, HASIL;
+cout<<"Masukkan sebuah bilangan bulat : "<<endl;
+cin>>Bilangan;
+HASIL = TambahSatu(Bilangan);
+//Menampilkan nilai setelah diproses di dalam fungsi
+cout<<"Nilai akhir : "<<HASIL;
+return 0;
+
+}
